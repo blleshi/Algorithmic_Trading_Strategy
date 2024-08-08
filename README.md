@@ -16,10 +16,6 @@ In a Jupyter notebook, you’ll do the following:
 
 As part of the `README.md` file in your GitHub repository, you’ll create a report comparing the performance of the machine learning models based on their trading predictions and the resulting cumulative strategy returns.
 
-## Files
-Download the following files to get started:
-
-- Module 14 Challenge files
 
 ## Instructions
 The steps for this challenge are divided into the following sections:
@@ -50,6 +46,3 @@ To evaluate a new machine learning classifier, follow these steps:
 1. Import a new classifier, such as AdaBoost, DecisionTreeClassifier, or LogisticRegression. Refer to the Supervised learning page in the scikit-learn documentation for a full list of classifiers.
 2. Using the original training data as the baseline model, fit another model with the new classifier.
 3. Backtest the new model to evaluate its performance. Save a PNG image of the cumulative product of the actual returns vs. the strategy returns for this updated trading algorithm, and write your conclusions in your `README.md` file. Answer the following questions: Did this new model perform better or worse than the provided baseline model? Did this new model perform better or worse than your tuned trading algorithm?
-
-### Create an Evaluation Report
-To conclude, add a summary evaluation report at the end of the `README.md` file. In this report, express your final conclusions and analysis. Support your findings with the PNG images that you created in the previous sections.
